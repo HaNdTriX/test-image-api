@@ -4,32 +4,31 @@ Pixel perfect test image api.
 
 ## Syntax
 
-```
-<width>x<height>.<format>?<option>
-```
+`<width>x<height>.<format>?<option>`
 
 ### Options
 
 #### width
 
-Type: `Number`\
-Default: `200`
+Type: `Number`  
+Default: `200`  
 Max: `5000`
 
 #### height
 
-Type: `Number`\
-Default: `width`
+Type: `Number`  
+Default: `width`  
 Max: `5000`
 
 #### format
 
-Type: `jpg, jpeg, png, webp, tiff, heif`\
+Type: `Enum`  
+Values: `jpg, jpeg, png, webp, tiff, heif`  
 Default: `png`
 
 #### quality
 
-Type: `Number`\
+Type: `Number`  
 Default: `80`
 
 

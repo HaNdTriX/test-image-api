@@ -9,13 +9,16 @@
     "url": "https://github.com/HaNdTriX/test-image-api.git"
   },
   "scripts": {
-    "build": "markdown-it README.md -o=./public/index.html"
+    "build": "node build.js"
   },
   "license": "MIT",
   "dependencies": {
-    "sharp": "^0.25.1"
+    "common-tags": "^1.8.0",
+    "remark-cli": "^7.0.1",
+    "sharp": "^0.25.1",
+    "showdown": "^1.9.1"
   },
   "devDependencies": {
-    "markdown-it": "^10.0.0"
+    "remark-html": "^10.0.0"
   }
 }
