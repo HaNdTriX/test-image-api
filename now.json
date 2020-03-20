@@ -1,0 +1,10 @@
+{
+  "routes": [
+    {
+      "src": "/image/(?<width>\\d*)x?(?<height>\\d*)?.?(?<format>\\w{0,4})",
+      "headers": { "cache-control": "s-maxage=604800, public" },
+      "methods": ["GET"],
+      "dest": "/api/index.js?width=$width&height=$height&format=$format"
+    }
+  ]
+}

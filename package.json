@@ -1,0 +1,21 @@
+{
+  "name": "test-image-api",
+  "version": "0.0.1",
+  "description": "Small image server, that provides test images in any size.",
+  "main": "index.js",
+  "author": "Henrik Wenz <HaNdTriX@gmail.com> (https://github.com/HaNdTriX)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HaNdTriX/test-image-api.git"
+  },
+  "scripts": {
+    "build": "markdown-it README.md -o=./public/index.html"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sharp": "^0.25.1"
+  },
+  "devDependencies": {
+    "markdown-it": "^10.0.0"
+  }
+}
