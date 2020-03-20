@@ -5,7 +5,7 @@ Pixel perfect test image api.
 ## Syntax
 
 ```
-image/<width>x<height>.<format>?<option>
+<width>x<height>.<format>?<option>
 ```
 
 ### Options
@@ -35,11 +35,11 @@ Default: `80`
 
 ## Examples
 
-* [image/300x300.png](/image/300x300.png)
-* [image/200.png](/image/200.png)
-* [image/1000.jpg](/image/1000.jpg)
-* [image/1000.jpeg](/image/1000.jpeg)
-* [image/600.webp](/image/600.webp)
-* [image/123x123.webp](/image/123x123.webp)
-* [image/123x123.tiff](/image/123x123.tiff)
-* [image/123x123.heif](/image/123x123.heif)
+* [300x300.png](/300x300.png)
+* [200.png](/200.png)
+* [1000.jpg](/1000.jpg)
+* [1000.jpeg](/1000.jpeg)
+* [600.webp](/600.webp)
+* [123x123.webp](/123x123.webp)
+* [123x123.tiff](/123x123.tiff)
+* [123x123.heif](/123x123.heif)
