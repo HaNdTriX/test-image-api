@@ -19,6 +19,6 @@
     "showdown": "^1.9.1"
   },
   "devDependencies": {
-    "remark-html": "^10.0.0"
+    "remark-html": "^13.0.2"
   }
 }
