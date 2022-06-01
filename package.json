@@ -15,7 +15,7 @@
   "dependencies": {
     "common-tags": "^1.8.0",
     "remark-cli": "^7.0.1",
-    "sharp": "^0.25.1",
+    "sharp": "^0.30.5",
     "showdown": "^1.9.1"
   },
   "devDependencies": {
